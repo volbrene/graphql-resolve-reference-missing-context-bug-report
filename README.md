@@ -26,7 +26,7 @@ Now it will return :
   "data": {
     "getUser": {
       "id": "1",
-      "name": "Test User from DE"
+      "name": "Test User from AT"
     }
   }
 }
