@@ -1,7 +1,7 @@
-import { Injectable, Inject } from "@nestjs/common";
+import { Injectable, Inject, Scope } from "@nestjs/common";
 import { CONTEXT } from "@nestjs/graphql";
 
-@Injectable()
+@Injectable({ scope: Scope.REQUEST })
 export class UserService {
   constructor(@Inject(CONTEXT) private readonly ctx) {}
 
