@@ -1,6 +1,6 @@
 # Bug Report for Graphql Gateway Resolve Reference: missing context
 
-repository for reproduces issue: [#651](https://github.com/nestjs/graphql/issues/651)
+repository for reproduces issue: [#712](https://github.com/nestjs/graphql/issues/712)
 
 ## How to reproduce the problem
 
